@@ -1,2 +1,2 @@
 ## HTTP REST API SERVER
-    http reat api server, powered by Go
+    http rest api server, powered by Go
