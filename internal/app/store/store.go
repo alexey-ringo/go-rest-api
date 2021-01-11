@@ -37,8 +37,9 @@ func (s *Store) Close() {
 	s.db.Close()
 }
 
-//пример доступа к репозиторию User
+//пример доступа к репозиторию User -
 // store.User().Create()
+//
 func (s *Store) User() *UserRepository {
 	if s.userRepository != nil {
 		return s.userRepository
