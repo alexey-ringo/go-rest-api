@@ -8,6 +8,7 @@
     go get -u github.com/gorilla/mux
     go get github.com/stretchr/testify
     go get github.com/lib/pq
+    go get github.com/go-ozzo/ozzo-validation
 
     make; ./apiserver
     migrate create -ext sql -dir migrations create_users
@@ -16,5 +17,6 @@
 
     Вывод в консоль структуры
     fmt.Printf("%+v\n", srtuct)
+    fmt.Printf("%T - %v\n", struct, struct)
     и строки
 	fmt.Println("123")
